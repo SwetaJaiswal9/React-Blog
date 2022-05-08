@@ -1,14 +1,25 @@
 # React-Blog
 
-( https://react-blog-flax.vercel.app/ )
+( https://react-blog-git-master-swetajaiswal9.vercel.app/ )
 
-A blog made using React JS.
+Blog using React JS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Tools used
 1. Firebase (FireStore as Database)
 2. React JS
+
+# Screenshots
+
+## 'Home' Page of Blog
+![](https://github.com/SwetaJaiswal9/React-Blog/blob/master/public/Blog%20Home%20Page.jpg)
+
+## 'Post Detail' Page of Blog
+![](https://github.com/SwetaJaiswal9/React-Blog/blob/master/public/Blog%20Post%20Detail%20Page.jpg)
+
+## 'Create Post' Page of Blog
+![](https://github.com/SwetaJaiswal9/React-Blog/blob/master/public/Blog%20Create%20Post%20Page.jpg)
 
 # Features
 1. 'Home' displays all the posted blogs.
