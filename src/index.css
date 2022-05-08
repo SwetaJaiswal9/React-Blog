@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/Tech\ Blog\ wallpaper.jpg');
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.home h1 {
+  text-align: center;
+  color: #000000;
+  padding-top: 5px;
+  font-size: 50px;
+  height: 100px;
+  background-color: rgb(213, 59, 59);
+}
+.home .post {
+  border: 3px solid #a8a6a6;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(26, 26, 26);
+}
+.home .post a {
+  text-decoration: none;
+}
+.home .post h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #dad7d7;
+}
+.home .post h3:hover {
+  color: #bee2ff;
+}
+.home .post p {
+  font-size: 15px;
+  color: #a8a6a6;
+}
+#blog-by {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-top: -70px;
+  color: #ffffff;
+}
+.post-detail {
+  background-color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.post-detail p {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+.post-detail h2 {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+.post-detail h1 {
+  text-align: center;
+  width: 800px;
+  margin-left: -30px;
+  background-color: rgb(213, 59, 59)
+}
+.post-detail h4 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+#nav {
+  list-style-type: none;
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  background-color: #bee2ff;
+}
+#nav li {
+  margin-left: 10px;
+}
+#nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 10px;
+}
+#nav li a:hover {
+  text-decoration: underline;
+}
+.create-post h1 {
+  text-align: center;
+  background-color: rgb(213, 59, 59);
+  font-size: 40px;
+}
+.create-post .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  background-color: rgb(26, 26, 26);
+}
+.create-post .form-field label {
+  margin-bottom: 9px;
+  color:rgb(225, 225, 225);
+  font-weight: 500;
+  font-size: 19px;
+}
+.create-post .form-field input {
+  height: 37px;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.create-post .form-field textarea {
+  border: 1px solid #e1e1e1;
+  height: 300px;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 3px;
+  padding-top: 5px;
+  font-family: 'monospace';
+}
+.create-post-btn {
+  height: 45px;
+  width: 150px;
+  font-weight: 700;
+  background:  rgb(213, 59, 59);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
