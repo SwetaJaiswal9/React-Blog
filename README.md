@@ -2,7 +2,7 @@
 
 ( https://react-blog-git-master-swetajaiswal9.vercel.app/ )
 
-Blog using React JS.
+Blog using ReactJS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
