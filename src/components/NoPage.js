@@ -1,8 +1,8 @@
 function NoPage() {
     return (
       <div className="NoPage">
-        404 Error :
-        Page Not Found !! 
+       <h1> 404 Error :
+        Page Not Found !! </h1>
       </div>
     );
   }
